@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints all string from 0 to 9
+ * main - prints single digits in base 10
  * Return: Always 0
  */
 int main(void)
@@ -8,9 +8,9 @@ int main(void)
 	int a;
 
 	for (a = 0; a < 10; a++)
-		printf("%d", a);
+		putchar((num % 10) + '0');
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }

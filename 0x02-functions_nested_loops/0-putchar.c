@@ -3,7 +3,7 @@
  * main - printer putchar
  * Return: 0 always
  */
-int main (void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');

@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - printer putchar
  * Return: 0 always
@@ -14,6 +14,7 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
 
